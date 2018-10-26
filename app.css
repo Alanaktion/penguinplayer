@@ -1,0 +1,11 @@
+/* Remove unneeded elements */
+#section-header,
+#section-footer,
+.adsbygoogle {
+    display: none !important;
+}
+
+/* Make game take maximum area */
+main section#D_F_GameSection {
+    height: 100vh !important;
+}
